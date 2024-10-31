@@ -1,0 +1,662 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0BFD5AA0F4FAB4AC1AF55FFA /* Pods_GreetSnap_Inspire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C5A599F11D320EEA3E94CE6C /* Pods_GreetSnap_Inspire.framework */; };
+		F544DA5E2CC11BDD00321739 /* ShareandDownldViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F544DA5D2CC11BDD00321739 /* ShareandDownldViewController.swift */; };
+		F544DA612CC11F8400321739 /* MessageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F544DA602CC11F8400321739 /* MessageViewController.swift */; };
+		F544DA632CC11F9300321739 /* MessageTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F544DA622CC11F9300321739 /* MessageTableViewCell.swift */; };
+		F544DA662CC1308600321739 /* FilterImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F544DA652CC1308600321739 /* FilterImageViewController.swift */; };
+		F544DA692CC1654400321739 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F544DA682CC1654400321739 /* SettingsViewController.swift */; };
+		F544DA6B2CC1656E00321739 /* FeedbackViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F544DA6A2CC1656E00321739 /* FeedbackViewController.swift */; };
+		F544DA6D2CC1659200321739 /* AboutusViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F544DA6C2CC1659200321739 /* AboutusViewController.swift */; };
+		F57264D62CC0F561005D1383 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F57264D52CC0F561005D1383 /* AppDelegate.swift */; };
+		F57264D82CC0F561005D1383 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F57264D72CC0F561005D1383 /* SceneDelegate.swift */; };
+		F57264DA2CC0F561005D1383 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F57264D92CC0F561005D1383 /* ViewController.swift */; };
+		F57264DD2CC0F561005D1383 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = F57264DC2CC0F561005D1383 /* Base */; };
+		F57264DF2CC0F564005D1383 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F57264DE2CC0F564005D1383 /* Assets.xcassets */; };
+		F57264E22CC0F564005D1383 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = F57264E12CC0F564005D1383 /* Base */; };
+		F59FDF892CC296CF00BDBC1A /* BackgroundremoverVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F59FDF882CC296CF00BDBC1A /* BackgroundremoverVC.swift */; };
+		F59FDF9D2CC29BBD00BDBC1A /* CGImage+CVPixelBuffer.swift in Sources */ = {isa = PBXBuildFile; fileRef = F59FDF8B2CC29BBD00BDBC1A /* CGImage+CVPixelBuffer.swift */; };
+		F59FDF9E2CC29BBD00BDBC1A /* CVPixelBuffer+Create.swift in Sources */ = {isa = PBXBuildFile; fileRef = F59FDF8C2CC29BBD00BDBC1A /* CVPixelBuffer+Create.swift */; };
+		F59FDF9F2CC29BBD00BDBC1A /* UIImage+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F59FDF8D2CC29BBD00BDBC1A /* UIImage+Extensions.swift */; };
+		F59FDFA02CC29BBD00BDBC1A /* Predictions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F59FDF8E2CC29BBD00BDBC1A /* Predictions.swift */; };
+		F59FDFA12CC29BBD00BDBC1A /* DeepLabV3.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = F59FDF8F2CC29BBD00BDBC1A /* DeepLabV3.mlmodel */; };
+		F59FDFA22CC29BBD00BDBC1A /* CVPixelBuffer+Rotate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F59FDF902CC29BBD00BDBC1A /* CVPixelBuffer+Rotate.swift */; };
+		F59FDFA32CC29BBD00BDBC1A /* CGImage+RawBytes.swift in Sources */ = {isa = PBXBuildFile; fileRef = F59FDF912CC29BBD00BDBC1A /* CGImage+RawBytes.swift */; };
+		F59FDFA42CC29BBD00BDBC1A /* NonMaxSuppression.swift in Sources */ = {isa = PBXBuildFile; fileRef = F59FDF922CC29BBD00BDBC1A /* NonMaxSuppression.swift */; };
+		F59FDFA52CC29BBD00BDBC1A /* CGImagePropertyOrientation.swift in Sources */ = {isa = PBXBuildFile; fileRef = F59FDF932CC29BBD00BDBC1A /* CGImagePropertyOrientation.swift */; };
+		F59FDFA62CC29BBD00BDBC1A /* Math.swift in Sources */ = {isa = PBXBuildFile; fileRef = F59FDF942CC29BBD00BDBC1A /* Math.swift */; };
+		F59FDFA72CC29BBD00BDBC1A /* MLModel+Images.swift in Sources */ = {isa = PBXBuildFile; fileRef = F59FDF952CC29BBD00BDBC1A /* MLModel+Images.swift */; };
+		F59FDFA82CC29BBD00BDBC1A /* CVPixelBuffer+Resize.swift in Sources */ = {isa = PBXBuildFile; fileRef = F59FDF962CC29BBD00BDBC1A /* CVPixelBuffer+Resize.swift */; };
+		F59FDFA92CC29BBD00BDBC1A /* Array+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F59FDF972CC29BBD00BDBC1A /* Array+Extensions.swift */; };
+		F59FDFAA2CC29BBD00BDBC1A /* UIImage+RawBytes.swift in Sources */ = {isa = PBXBuildFile; fileRef = F59FDF982CC29BBD00BDBC1A /* UIImage+RawBytes.swift */; };
+		F59FDFAB2CC29BBD00BDBC1A /* MLMultiArray+Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = F59FDF992CC29BBD00BDBC1A /* MLMultiArray+Helpers.swift */; };
+		F59FDFAC2CC29BBD00BDBC1A /* UIImage+CVPixelBuffer.swift in Sources */ = {isa = PBXBuildFile; fileRef = F59FDF9A2CC29BBD00BDBC1A /* UIImage+CVPixelBuffer.swift */; };
+		F59FDFAD2CC29BBD00BDBC1A /* MLMultiArray+Image.swift in Sources */ = {isa = PBXBuildFile; fileRef = F59FDF9B2CC29BBD00BDBC1A /* MLMultiArray+Image.swift */; };
+		F59FDFAE2CC29BBD00BDBC1A /* CoreML+Combine.swift in Sources */ = {isa = PBXBuildFile; fileRef = F59FDF9C2CC29BBD00BDBC1A /* CoreML+Combine.swift */; };
+		F5BC82612CC10E8600FBF739 /* Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5BC82602CC10E8600FBF739 /* Helper.swift */; };
+		F5BC82632CC111DF00FBF739 /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5BC82622CC111DF00FBF739 /* WelcomeViewController.swift */; };
+		F5BC82672CC1120B00FBF739 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5BC82662CC1120B00FBF739 /* HomeViewController.swift */; };
+		F5BC826A2CC113C500FBF739 /* GreetingsDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5BC82692CC113C500FBF739 /* GreetingsDetailViewController.swift */; };
+		F5BC826C2CC113DB00FBF739 /* GreetingsDetailCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5BC826B2CC113DB00FBF739 /* GreetingsDetailCollectionViewCell.swift */; };
+		F5BF8B442CC26390008B0E27 /* HomeCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5BF8B432CC26390008B0E27 /* HomeCollectionViewCell.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3A74AB25DDB58E09F3D82A7C /* Pods-GreetSnap Inspire.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GreetSnap Inspire.release.xcconfig"; path = "Target Support Files/Pods-GreetSnap Inspire/Pods-GreetSnap Inspire.release.xcconfig"; sourceTree = "<group>"; };
+		C5A599F11D320EEA3E94CE6C /* Pods_GreetSnap_Inspire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GreetSnap_Inspire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C91B521BCEF2BE3E36DF2913 /* Pods-GreetSnap Inspire.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GreetSnap Inspire.debug.xcconfig"; path = "Target Support Files/Pods-GreetSnap Inspire/Pods-GreetSnap Inspire.debug.xcconfig"; sourceTree = "<group>"; };
+		F544DA5D2CC11BDD00321739 /* ShareandDownldViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShareandDownldViewController.swift; sourceTree = "<group>"; };
+		F544DA602CC11F8400321739 /* MessageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageViewController.swift; sourceTree = "<group>"; };
+		F544DA622CC11F9300321739 /* MessageTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageTableViewCell.swift; sourceTree = "<group>"; };
+		F544DA652CC1308600321739 /* FilterImageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterImageViewController.swift; sourceTree = "<group>"; };
+		F544DA682CC1654400321739 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		F544DA6A2CC1656E00321739 /* FeedbackViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedbackViewController.swift; sourceTree = "<group>"; };
+		F544DA6C2CC1659200321739 /* AboutusViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutusViewController.swift; sourceTree = "<group>"; };
+		F57264D22CC0F561005D1383 /* GreetSnap Inspire.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "GreetSnap Inspire.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F57264D52CC0F561005D1383 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F57264D72CC0F561005D1383 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		F57264D92CC0F561005D1383 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F57264DC2CC0F561005D1383 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F57264DE2CC0F564005D1383 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F57264E12CC0F564005D1383 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F57264E32CC0F564005D1383 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F59FDF882CC296CF00BDBC1A /* BackgroundremoverVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BackgroundremoverVC.swift; sourceTree = "<group>"; };
+		F59FDF8B2CC29BBD00BDBC1A /* CGImage+CVPixelBuffer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CGImage+CVPixelBuffer.swift"; sourceTree = "<group>"; };
+		F59FDF8C2CC29BBD00BDBC1A /* CVPixelBuffer+Create.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CVPixelBuffer+Create.swift"; sourceTree = "<group>"; };
+		F59FDF8D2CC29BBD00BDBC1A /* UIImage+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImage+Extensions.swift"; sourceTree = "<group>"; };
+		F59FDF8E2CC29BBD00BDBC1A /* Predictions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Predictions.swift; sourceTree = "<group>"; };
+		F59FDF8F2CC29BBD00BDBC1A /* DeepLabV3.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = DeepLabV3.mlmodel; sourceTree = "<group>"; };
+		F59FDF902CC29BBD00BDBC1A /* CVPixelBuffer+Rotate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CVPixelBuffer+Rotate.swift"; sourceTree = "<group>"; };
+		F59FDF912CC29BBD00BDBC1A /* CGImage+RawBytes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CGImage+RawBytes.swift"; sourceTree = "<group>"; };
+		F59FDF922CC29BBD00BDBC1A /* NonMaxSuppression.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NonMaxSuppression.swift; sourceTree = "<group>"; };
+		F59FDF932CC29BBD00BDBC1A /* CGImagePropertyOrientation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CGImagePropertyOrientation.swift; sourceTree = "<group>"; };
+		F59FDF942CC29BBD00BDBC1A /* Math.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Math.swift; sourceTree = "<group>"; };
+		F59FDF952CC29BBD00BDBC1A /* MLModel+Images.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "MLModel+Images.swift"; sourceTree = "<group>"; };
+		F59FDF962CC29BBD00BDBC1A /* CVPixelBuffer+Resize.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CVPixelBuffer+Resize.swift"; sourceTree = "<group>"; };
+		F59FDF972CC29BBD00BDBC1A /* Array+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Array+Extensions.swift"; sourceTree = "<group>"; };
+		F59FDF982CC29BBD00BDBC1A /* UIImage+RawBytes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImage+RawBytes.swift"; sourceTree = "<group>"; };
+		F59FDF992CC29BBD00BDBC1A /* MLMultiArray+Helpers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "MLMultiArray+Helpers.swift"; sourceTree = "<group>"; };
+		F59FDF9A2CC29BBD00BDBC1A /* UIImage+CVPixelBuffer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImage+CVPixelBuffer.swift"; sourceTree = "<group>"; };
+		F59FDF9B2CC29BBD00BDBC1A /* MLMultiArray+Image.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "MLMultiArray+Image.swift"; sourceTree = "<group>"; };
+		F59FDF9C2CC29BBD00BDBC1A /* CoreML+Combine.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CoreML+Combine.swift"; sourceTree = "<group>"; };
+		F5BC82602CC10E8600FBF739 /* Helper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Helper.swift; sourceTree = "<group>"; };
+		F5BC82622CC111DF00FBF739 /* WelcomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
+		F5BC82662CC1120B00FBF739 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		F5BC82692CC113C500FBF739 /* GreetingsDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GreetingsDetailViewController.swift; sourceTree = "<group>"; };
+		F5BC826B2CC113DB00FBF739 /* GreetingsDetailCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GreetingsDetailCollectionViewCell.swift; sourceTree = "<group>"; };
+		F5BF8B432CC26390008B0E27 /* HomeCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeCollectionViewCell.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F57264CF2CC0F561005D1383 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0BFD5AA0F4FAB4AC1AF55FFA /* Pods_GreetSnap_Inspire.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7440CD9A5C6610208F4239C1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C5A599F11D320EEA3E94CE6C /* Pods_GreetSnap_Inspire.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		81D54E0C3397760464439C4B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C91B521BCEF2BE3E36DF2913 /* Pods-GreetSnap Inspire.debug.xcconfig */,
+				3A74AB25DDB58E09F3D82A7C /* Pods-GreetSnap Inspire.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		F544DA5C2CC11BA700321739 /* ShareanddownldVC */ = {
+			isa = PBXGroup;
+			children = (
+				F544DA5D2CC11BDD00321739 /* ShareandDownldViewController.swift */,
+			);
+			path = ShareanddownldVC;
+			sourceTree = "<group>";
+		};
+		F544DA5F2CC11F6F00321739 /* Messagevc */ = {
+			isa = PBXGroup;
+			children = (
+				F544DA602CC11F8400321739 /* MessageViewController.swift */,
+				F544DA622CC11F9300321739 /* MessageTableViewCell.swift */,
+			);
+			path = Messagevc;
+			sourceTree = "<group>";
+		};
+		F544DA642CC1306200321739 /* FilterimageVC */ = {
+			isa = PBXGroup;
+			children = (
+				F544DA652CC1308600321739 /* FilterImageViewController.swift */,
+			);
+			path = FilterimageVC;
+			sourceTree = "<group>";
+		};
+		F544DA672CC1652800321739 /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				F544DA682CC1654400321739 /* SettingsViewController.swift */,
+				F544DA6A2CC1656E00321739 /* FeedbackViewController.swift */,
+				F544DA6C2CC1659200321739 /* AboutusViewController.swift */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+		F57264C92CC0F561005D1383 = {
+			isa = PBXGroup;
+			children = (
+				F57264D42CC0F561005D1383 /* GreetSnap Inspire */,
+				F57264D32CC0F561005D1383 /* Products */,
+				81D54E0C3397760464439C4B /* Pods */,
+				7440CD9A5C6610208F4239C1 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		F57264D32CC0F561005D1383 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F57264D22CC0F561005D1383 /* GreetSnap Inspire.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F57264D42CC0F561005D1383 /* GreetSnap Inspire */ = {
+			isa = PBXGroup;
+			children = (
+				F59FDF8A2CC29B7D00BDBC1A /* backgroundhelper */,
+				F59FDF872CC2968E00BDBC1A /* BackgroundRemover */,
+				F544DA672CC1652800321739 /* Settings */,
+				F544DA642CC1306200321739 /* FilterimageVC */,
+				F544DA5F2CC11F6F00321739 /* Messagevc */,
+				F544DA5C2CC11BA700321739 /* ShareanddownldVC */,
+				F5BC82682CC1139F00FBF739 /* GreetingsdetailVC */,
+				F5BC82652CC111F800FBF739 /* HomeVC */,
+				F5BC82642CC111EA00FBF739 /* WelcomVC */,
+				F5BC825F2CC10E6E00FBF739 /* Helper */,
+				F57264D52CC0F561005D1383 /* AppDelegate.swift */,
+				F57264D72CC0F561005D1383 /* SceneDelegate.swift */,
+				F57264D92CC0F561005D1383 /* ViewController.swift */,
+				F57264DB2CC0F561005D1383 /* Main.storyboard */,
+				F57264DE2CC0F564005D1383 /* Assets.xcassets */,
+				F57264E02CC0F564005D1383 /* LaunchScreen.storyboard */,
+				F57264E32CC0F564005D1383 /* Info.plist */,
+			);
+			path = "GreetSnap Inspire";
+			sourceTree = "<group>";
+		};
+		F59FDF872CC2968E00BDBC1A /* BackgroundRemover */ = {
+			isa = PBXGroup;
+			children = (
+				F59FDF882CC296CF00BDBC1A /* BackgroundremoverVC.swift */,
+			);
+			path = BackgroundRemover;
+			sourceTree = "<group>";
+		};
+		F59FDF8A2CC29B7D00BDBC1A /* backgroundhelper */ = {
+			isa = PBXGroup;
+			children = (
+				F59FDF972CC29BBD00BDBC1A /* Array+Extensions.swift */,
+				F59FDF8B2CC29BBD00BDBC1A /* CGImage+CVPixelBuffer.swift */,
+				F59FDF912CC29BBD00BDBC1A /* CGImage+RawBytes.swift */,
+				F59FDF932CC29BBD00BDBC1A /* CGImagePropertyOrientation.swift */,
+				F59FDF9C2CC29BBD00BDBC1A /* CoreML+Combine.swift */,
+				F59FDF8C2CC29BBD00BDBC1A /* CVPixelBuffer+Create.swift */,
+				F59FDF962CC29BBD00BDBC1A /* CVPixelBuffer+Resize.swift */,
+				F59FDF902CC29BBD00BDBC1A /* CVPixelBuffer+Rotate.swift */,
+				F59FDF8F2CC29BBD00BDBC1A /* DeepLabV3.mlmodel */,
+				F59FDF942CC29BBD00BDBC1A /* Math.swift */,
+				F59FDF952CC29BBD00BDBC1A /* MLModel+Images.swift */,
+				F59FDF992CC29BBD00BDBC1A /* MLMultiArray+Helpers.swift */,
+				F59FDF9B2CC29BBD00BDBC1A /* MLMultiArray+Image.swift */,
+				F59FDF922CC29BBD00BDBC1A /* NonMaxSuppression.swift */,
+				F59FDF8E2CC29BBD00BDBC1A /* Predictions.swift */,
+				F59FDF9A2CC29BBD00BDBC1A /* UIImage+CVPixelBuffer.swift */,
+				F59FDF8D2CC29BBD00BDBC1A /* UIImage+Extensions.swift */,
+				F59FDF982CC29BBD00BDBC1A /* UIImage+RawBytes.swift */,
+			);
+			path = backgroundhelper;
+			sourceTree = "<group>";
+		};
+		F5BC825F2CC10E6E00FBF739 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				F5BC82602CC10E8600FBF739 /* Helper.swift */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		F5BC82642CC111EA00FBF739 /* WelcomVC */ = {
+			isa = PBXGroup;
+			children = (
+				F5BC82622CC111DF00FBF739 /* WelcomeViewController.swift */,
+			);
+			path = WelcomVC;
+			sourceTree = "<group>";
+		};
+		F5BC82652CC111F800FBF739 /* HomeVC */ = {
+			isa = PBXGroup;
+			children = (
+				F5BC82662CC1120B00FBF739 /* HomeViewController.swift */,
+				F5BF8B432CC26390008B0E27 /* HomeCollectionViewCell.swift */,
+			);
+			path = HomeVC;
+			sourceTree = "<group>";
+		};
+		F5BC82682CC1139F00FBF739 /* GreetingsdetailVC */ = {
+			isa = PBXGroup;
+			children = (
+				F5BC82692CC113C500FBF739 /* GreetingsDetailViewController.swift */,
+				F5BC826B2CC113DB00FBF739 /* GreetingsDetailCollectionViewCell.swift */,
+			);
+			path = GreetingsdetailVC;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F57264D12CC0F561005D1383 /* GreetSnap Inspire */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F57264E62CC0F564005D1383 /* Build configuration list for PBXNativeTarget "GreetSnap Inspire" */;
+			buildPhases = (
+				EAFD4E5AC6ED392D27ABB4BB /* [CP] Check Pods Manifest.lock */,
+				F57264CE2CC0F561005D1383 /* Sources */,
+				F57264CF2CC0F561005D1383 /* Frameworks */,
+				F57264D02CC0F561005D1383 /* Resources */,
+				8BB16A45DBFA97CA0CF13C33 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "GreetSnap Inspire";
+			productName = "GreetSnap Inspire";
+			productReference = F57264D22CC0F561005D1383 /* GreetSnap Inspire.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F57264CA2CC0F561005D1383 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					F57264D12CC0F561005D1383 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+				};
+			};
+			buildConfigurationList = F57264CD2CC0F561005D1383 /* Build configuration list for PBXProject "GreetSnap Inspire" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F57264C92CC0F561005D1383;
+			productRefGroup = F57264D32CC0F561005D1383 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F57264D12CC0F561005D1383 /* GreetSnap Inspire */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F57264D02CC0F561005D1383 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F57264DF2CC0F564005D1383 /* Assets.xcassets in Resources */,
+				F57264E22CC0F564005D1383 /* Base in Resources */,
+				F57264DD2CC0F561005D1383 /* Base in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		8BB16A45DBFA97CA0CF13C33 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GreetSnap Inspire/Pods-GreetSnap Inspire-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GreetSnap Inspire/Pods-GreetSnap Inspire-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-GreetSnap Inspire/Pods-GreetSnap Inspire-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EAFD4E5AC6ED392D27ABB4BB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GreetSnap Inspire-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F57264CE2CC0F561005D1383 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F57264DA2CC0F561005D1383 /* ViewController.swift in Sources */,
+				F59FDFA92CC29BBD00BDBC1A /* Array+Extensions.swift in Sources */,
+				F59FDFAA2CC29BBD00BDBC1A /* UIImage+RawBytes.swift in Sources */,
+				F5BC82632CC111DF00FBF739 /* WelcomeViewController.swift in Sources */,
+				F59FDFAC2CC29BBD00BDBC1A /* UIImage+CVPixelBuffer.swift in Sources */,
+				F59FDFA32CC29BBD00BDBC1A /* CGImage+RawBytes.swift in Sources */,
+				F59FDFA42CC29BBD00BDBC1A /* NonMaxSuppression.swift in Sources */,
+				F5BC826A2CC113C500FBF739 /* GreetingsDetailViewController.swift in Sources */,
+				F59FDFAD2CC29BBD00BDBC1A /* MLMultiArray+Image.swift in Sources */,
+				F59FDF9D2CC29BBD00BDBC1A /* CGImage+CVPixelBuffer.swift in Sources */,
+				F544DA6D2CC1659200321739 /* AboutusViewController.swift in Sources */,
+				F59FDFA12CC29BBD00BDBC1A /* DeepLabV3.mlmodel in Sources */,
+				F544DA6B2CC1656E00321739 /* FeedbackViewController.swift in Sources */,
+				F57264D62CC0F561005D1383 /* AppDelegate.swift in Sources */,
+				F59FDFA72CC29BBD00BDBC1A /* MLModel+Images.swift in Sources */,
+				F59FDFA52CC29BBD00BDBC1A /* CGImagePropertyOrientation.swift in Sources */,
+				F59FDFA62CC29BBD00BDBC1A /* Math.swift in Sources */,
+				F59FDF9F2CC29BBD00BDBC1A /* UIImage+Extensions.swift in Sources */,
+				F544DA632CC11F9300321739 /* MessageTableViewCell.swift in Sources */,
+				F59FDFA82CC29BBD00BDBC1A /* CVPixelBuffer+Resize.swift in Sources */,
+				F59FDF9E2CC29BBD00BDBC1A /* CVPixelBuffer+Create.swift in Sources */,
+				F5BF8B442CC26390008B0E27 /* HomeCollectionViewCell.swift in Sources */,
+				F544DA612CC11F8400321739 /* MessageViewController.swift in Sources */,
+				F5BC826C2CC113DB00FBF739 /* GreetingsDetailCollectionViewCell.swift in Sources */,
+				F59FDFAB2CC29BBD00BDBC1A /* MLMultiArray+Helpers.swift in Sources */,
+				F59FDFA22CC29BBD00BDBC1A /* CVPixelBuffer+Rotate.swift in Sources */,
+				F57264D82CC0F561005D1383 /* SceneDelegate.swift in Sources */,
+				F5BC82612CC10E8600FBF739 /* Helper.swift in Sources */,
+				F544DA5E2CC11BDD00321739 /* ShareandDownldViewController.swift in Sources */,
+				F59FDFA02CC29BBD00BDBC1A /* Predictions.swift in Sources */,
+				F544DA692CC1654400321739 /* SettingsViewController.swift in Sources */,
+				F544DA662CC1308600321739 /* FilterImageViewController.swift in Sources */,
+				F59FDFAE2CC29BBD00BDBC1A /* CoreML+Combine.swift in Sources */,
+				F5BC82672CC1120B00FBF739 /* HomeViewController.swift in Sources */,
+				F59FDF892CC296CF00BDBC1A /* BackgroundremoverVC.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F57264DB2CC0F561005D1383 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F57264DC2CC0F561005D1383 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F57264E02CC0F564005D1383 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F57264E12CC0F564005D1383 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F57264E42CC0F564005D1383 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F57264E52CC0F564005D1383 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F57264E72CC0F564005D1383 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C91B521BCEF2BE3E36DF2913 /* Pods-GreetSnap Inspire.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = N6CNSJ2QK9;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "GreetSnap Inspire/Info.plist";
+				INFOPLIST_KEY_NSCameraUsageDescription = "\"GreetSnap Inspire\" needs access to your camera to allow you to take photos, apply filters, and save your creations.";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "\"GreetSnap Inspire\" needs access to your photo library to allow you to pick images, apply filters, and save your creations.";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.GreetSnapInspire.GreetSnap-Inspire";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		F57264E82CC0F564005D1383 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3A74AB25DDB58E09F3D82A7C /* Pods-GreetSnap Inspire.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = N6CNSJ2QK9;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "GreetSnap Inspire/Info.plist";
+				INFOPLIST_KEY_NSCameraUsageDescription = "\"GreetSnap Inspire\" needs access to your camera to allow you to take photos, apply filters, and save your creations.";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "\"GreetSnap Inspire\" needs access to your photo library to allow you to pick images, apply filters, and save your creations.";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.GreetSnapInspire.GreetSnap-Inspire";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F57264CD2CC0F561005D1383 /* Build configuration list for PBXProject "GreetSnap Inspire" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F57264E42CC0F564005D1383 /* Debug */,
+				F57264E52CC0F564005D1383 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F57264E62CC0F564005D1383 /* Build configuration list for PBXNativeTarget "GreetSnap Inspire" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F57264E72CC0F564005D1383 /* Debug */,
+				F57264E82CC0F564005D1383 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F57264CA2CC0F561005D1383 /* Project object */;
+}
